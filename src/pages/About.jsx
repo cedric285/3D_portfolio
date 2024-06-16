@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Cedric
         </span>{" "}
         👋
       </h1>
 
-      <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+      <div className='mt-5 flex flex-col gap-3 text-gray-950'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Cybersecurity Engineer studying in France, 
+          Currently, working as an apprentice at BNP Paribas.
         </p>
       </div>
 
@@ -32,7 +32,7 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
+            <div className='block-container w-40 h-40' key={skill.name}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
@@ -48,10 +48,9 @@ const About = () => {
 
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
-        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+        <div className='mt-5 flex flex-col gap-3 text-blue-950'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            As a beginner, I have worked with only certain number of companies, however, those companies are big ones:
           </p>
         </div>
 
@@ -94,7 +93,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
+                      className='text-black font-normal pl-1 text-sm'
                     >
                       {point}
                     </li>

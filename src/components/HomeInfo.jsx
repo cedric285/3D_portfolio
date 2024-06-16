@@ -7,10 +7,10 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
         Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Adrian</span>
+        <span className='font-semibold mx-2 text-white'>Cedric</span>
         👋
         <br />
-        A Software Engineer from Croatia 🇭🇷
+        An Engineer Apprentice from France 🇫🇷
       </h1>
     );
 
@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+          Debuted my career in IT in 2022 <br /> and picking up many skills along the way
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          Thanks to my internship and apprentishing I had few working experience <br /> Curious about the impact ?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
@@ -48,7 +48,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+        Need to join me ? <br/> I'm just a few keystrokes away
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
